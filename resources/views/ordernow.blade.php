@@ -12,7 +12,7 @@
             </tr>
             <tr>
                 <td>Tax</td>    
-                <td>$ {{$total*.12}}</td>
+                <td>$ {{round($total*.12,2)}}</td>
             </tr>
             <tr>
                 <td>Delivery Fee</td>
@@ -20,7 +20,7 @@
             </tr>
             <tr>
                 <td>Total Amount</td>
-                <td>$ {{($total+10)+($total*.12)}}</td>
+                <td>$ {{round($total+10+$total*.12,2)}}</td>
             </tr>
         </tbody>
         </table>

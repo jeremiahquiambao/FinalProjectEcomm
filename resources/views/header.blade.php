@@ -21,7 +21,7 @@ if(Session::has('user'))
       <a class="navbar-brand">
         <img src="/images/temporary_logo.png" width="150px">
       </a>
-    </div>
+    </div>  
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

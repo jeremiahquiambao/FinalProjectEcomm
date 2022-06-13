@@ -28,7 +28,6 @@
         height: 500px;
         padding-top: 100px;
     }*/
-
     .navbar-color{
         background-color: rgb(255,158,2);
         border-bottom: 7.5px solid #ff9e02;

@@ -5,7 +5,7 @@
         <div class="col-sm-6">
             <img img class="detail-img" src="{{$product['gallery']}}" alt="" />
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6"; class="mb-3">
                 <a href="/">Go Back</a>
             <h2>{{$product['name']}}</h2>
             <h3>Price: {{$product['price']}}</h3>
