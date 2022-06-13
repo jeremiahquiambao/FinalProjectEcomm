@@ -28,10 +28,33 @@
         height: 500px;
         padding-top: 100px;
     }*/
+    .header{
+        margin-top: 11px
+    }
     .navbar-color{
         background-color: rgb(255,158,2);
         border-bottom: 7.5px solid #ff9e02;
     }
+    .home-format{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .orders-format{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .cart-format{
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .account-format{
+        color: white;
+    }
+
     /* Product Slider - check product.blade.php */
     img.slider-img{
         height:400px !important
@@ -57,11 +80,17 @@
     }
     .search-box{
         width: 500px !important
+        
     }
+
     .cart-list-divider{
          border-bottom: 1px solid #ccc;
          margin-bottom: 20px;
          padding-bottom: 20px;
     }
+
+    
+    /* min-width: 100px; */
+
 </style>
 </html>

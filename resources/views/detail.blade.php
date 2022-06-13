@@ -6,7 +6,7 @@
             <img img class="detail-img" src="{{$product['gallery']}}" alt="" />
         </div>
         <div class="col-sm-6"; class="mb-3">
-                <a href="/">Go Back</a>
+                <a href="/"><span class="glyphicon glyphicon-menu-left"></span>Go Back</a>
             <h2>{{$product['name']}}</h2>
             <h3>Price: {{$product['price']}}</h3>
             <h4>Category: {{$product['category']}}</h4>
@@ -18,8 +18,15 @@
             <button class="btn btn-primary">Add to Cart</button>
             </form>
             <br><br>
-            <button class="btn btn-success">Buy Now</button>
+            
+            <!-- Buy Now Function 
+            <form action="/add_to_cart" method="POST">
+                @csrf
+                <input type="hidden" name="product_id" value={{$product['id']}}>
+            <button class = "btn btn-success" href="/cartlist">Buy Now</button> <br><br>
             <br><br>
+            -->
+            
         </div>
     </div>
 </div> 
