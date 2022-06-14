@@ -32,9 +32,9 @@
             </div>
             <div class="form-group">
                 <label for="pwd">Choose a Payment Method</label> <br><br>
-                <input type="radio" value="Debit Card" name="payment"><span>Debit Card</span> <br><br>
-                <input type="radio" value="E-Payment" name="payment"><span>E-Payment</span> <br><br>
-                <input type="radio" value="Cash" name="payment"><span>Cash on Delivery</span> <br><br>
+                <input type="radio" value="Debit Card" name="payment"><span> Debit Card</span> <br><br>
+                <input type="radio" value="E-Payment" name="payment"><span> E-Payment</span> <br><br>
+                <input type="radio" value="Cash" name="payment"><span> Cash on Delivery</span> <br><br>
             </div>
             <button type="submit" class="btn btn-success">CONFIRM ORDER</button>
             </form>

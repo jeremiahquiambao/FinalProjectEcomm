@@ -14,7 +14,7 @@ class UserController extends Controller
         $user= User::where(['email'=>$req->email])->first();
         if(!$user || !Hash::check($req->password,$user->password))
         {
-            return "Username or password is not matched";
+            return "Email address or password is not matched";
         }
         else{
             $req->session()->put('user',$user);
@@ -23,7 +23,6 @@ class UserController extends Controller
     }
     function register(Request $req)
     {
-        //return $req->input();
         $user = new User;
         $user->name=$req->name;
         $user->email=$req->email;

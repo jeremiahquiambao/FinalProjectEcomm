@@ -24,10 +24,7 @@
 </body>
 <style>
 
-    /*.custom-login{
-        height: 500px;
-        padding-top: 100px;
-    }*/
+    
     .header{
         margin-top: 11px
     }
@@ -88,9 +85,6 @@
          margin-bottom: 20px;
          padding-bottom: 20px;
     }
-
-    
-    /* min-width: 100px; */
 
 </style>
 </html>
